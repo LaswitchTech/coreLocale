@@ -1,6 +1,6 @@
-# scan(string $ip, string $port, string $timeout = self::timeout(5))
-This method is used to scan a port on a given IP address.
+# add(string $key, string $value = null)
+This method is used to add a key and value to the current locale.
 
 ```php
-$Net->scan("127.0.0.1",3306);
+$Locale->add("Welcome!", "Bienvenue");
 ```

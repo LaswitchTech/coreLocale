@@ -24,8 +24,10 @@ $Locale = new Locale();
 ### Methods
 `Locale` provides the following methods:
 
+- [add()](methods/Locale/add.md)
 - [config()](methods/Locale/config.md)
+- [current()](methods/Locale/current.md)
+- [get()](methods/Locale/get.md)
 - [isInstalled()](methods/Locale/isInstalled.md)
-- [lookup()](methods/Locale/lookup.md)
-- [ping()](methods/Locale/ping.md)
-- [scan()](methods/Locale/scan.md)
+- [list()](methods/Locale/list.md)
+- [set()](methods/Locale/set.md)

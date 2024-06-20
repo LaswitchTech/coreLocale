@@ -1,6 +1,6 @@
-# ping(string $host)
-This method is used to ping a given host address.
+# get(string $key)
+This method is used to get the value of a key in the current locale.
 
 ```php
-$Net->ping("google.ca");
+$Locale->get("Welcome!");
 ```

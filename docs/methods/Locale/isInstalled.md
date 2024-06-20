@@ -1,6 +1,6 @@
 # isInstalled()
-This method is used to check if the `Net` is installed.
+This method is used to check if the `Locale` is installed.
 
 ```php
-$Net->isInstalled();
+$Locale->isInstalled();
 ```

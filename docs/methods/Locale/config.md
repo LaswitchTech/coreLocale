@@ -2,7 +2,7 @@
 This method is used to set the configuration options for the module.
 
 ```php
-$Net->config('option', 'value');
+$Locale->config('option', 'value');
 ```
 
 ## Available Options

@@ -1,10 +1,6 @@
-# lookup(string $hostname, string $type = 'A')
-This method is used to lookup a given hostname.
+# set(string $locale)
+This method is used to set the locale for the module.
 
 ```php
-$Net->lookup("google.ca");
-```
-
-```php
-$Net->lookup("gmail.com", "MX");
+$Locale->set("fr-ca");
 ```

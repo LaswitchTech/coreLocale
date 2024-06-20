@@ -43,16 +43,16 @@
     - [-] Integration with coreRouter
         - [-] Create a `Controller` class to handle HTTP requests
 - [] Documentations
-    - [] Create the `docs/usage.md` file
-    - [] Create the directory `docs/methods`
-    - [] Create a directory for each class in `docs/methods`
+    - [X] Create the `docs/usage.md` file
+    - [X] Create the directory `docs/methods`
+    - [X] Create a directory for each class in `docs/methods`
     - [] Create a markdown file for each method in `docs/methods/{class}`
-    - [] Add the list of properties in `docs/usage.md`
-- [] Clean up the code
-    - [] Remove unnecessary files
-    - [] Remove unnecessary code
-    - [] Remove unnecessary comments
-    - [] Remove unnecessary dependencies
-    - [] Fix coding standards
-    - [] Add method annotations
+    - [X] Add the list of properties in `docs/usage.md`
+- [X] Clean up the code
+    - [X] Remove unnecessary files
+    - [X] Remove unnecessary code
+    - [X] Remove unnecessary comments
+    - [X] Remove unnecessary dependencies
+    - [X] Fix coding standards
+    - [X] Add method annotations
 - [] Ready to publish

@@ -1,49 +1,18 @@
 <?php
 
 // Import additionnal class into the global namespace
-use LaswitchTech\coreNet\Net;
+use LaswitchTech\coreLocale\Locale;
 
 // Load Composer's autoloader
 require 'vendor/autoload.php';
 
-// Initiate Net
-$Net = new Net();
-
-// Scan a Port
-foreach(["127.0.0.1" => 3306,"127.0.0.1" => "sql","127.0.0.1" => 80] as $host => $port){
-    echo "Port " . $host . ":" . $port . " is " . ($Net->scan($host,$port) ? "Open" : "Closed") . PHP_EOL;
-}
-
-// Ping an IP
-foreach(["127.0.0.1","google.com","8.8.8.8"] as $ip){
-    echo "Ping to " . $ip . " is " . $Net->ping($ip) . "ms" . PHP_EOL;
-}
-
-// Lookup a Domain
-foreach(["google.com","google.ca","facebook.com","apple.com"] as $dns){
-    echo "Lookup " . $dns . PHP_EOL;
-    foreach($Net->lookup($dns) as $key => $value){
-        echo $key . ": " . $value . PHP_EOL;
-    }
-}
-
-
-
-<?php
-
-// Import class into the global namespace
-use LaswitchTech\phpLocale\phpLocale;
-
-// Load Composer's autoloader
-require 'vendor/autoload.php';
-
-// Initialize Class
-$phpLocale = new phpLocale();
+// Initiate Locale
+$Locale = new Locale();
 
 // Set Locale
-$phpLocale->set('fr-ca');
+$Locale->set('fr-ca');
 
 // Get Translations
-var_dump($phpLocale->get("name"));
-var_dump($phpLocale->get("website"));
-var_dump($phpLocale->get("customs"));
+var_dump($Locale->get("name"));
+var_dump($Locale->get("website"));
+var_dump($Locale->get("customs"));
