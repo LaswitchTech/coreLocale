@@ -1,5 +1,5 @@
 ### RoadMap
-- [] Initialize the project
+- [X] Initialize the project
     - [X] Add `.editorconfig`
     - [X] Add `.gitignore`
     - [X] Add `.github/ISSUE_TEMPLATE/bug_report.md`
@@ -16,11 +16,11 @@
     - [X] Initialize Composer `composer init`
     - [X] Dump autoload `composer dump-autoload`
     - [X] Update requirements in `config/requirements.cfg`
-    - [] Perform initial push to GitHub
-    - [] Create `stable` branch from `dev` branch on GitHub
-    - [] Set `stable` branch as default branch on GitHub
-    - [] Create a package on Packagist
-    - [] Create a release on GitHub
+    - [X] Perform initial push to GitHub
+    - [X] Create `stable` branch from `dev` branch on GitHub
+    - [X] Set `stable` branch as default branch on GitHub
+    - [X] Create a package on Packagist
+    - [X] Create a release on GitHub
 - [X] Create the core class
     - [X] Create the `Core` class
     - [X] Create the `Core` class constructor
@@ -42,11 +42,11 @@
         - [-] Create a `Controller` class to handle API requests
     - [-] Integration with coreRouter
         - [-] Create a `Controller` class to handle HTTP requests
-- [] Documentations
+- [X] Documentations
     - [X] Create the `docs/usage.md` file
     - [X] Create the directory `docs/methods`
     - [X] Create a directory for each class in `docs/methods`
-    - [] Create a markdown file for each method in `docs/methods/{class}`
+    - [X] Create a markdown file for each method in `docs/methods/{class}`
     - [X] Add the list of properties in `docs/usage.md`
 - [X] Clean up the code
     - [X] Remove unnecessary files
@@ -55,4 +55,4 @@
     - [X] Remove unnecessary dependencies
     - [X] Fix coding standards
     - [X] Add method annotations
-- [] Ready to publish
+- [X] Ready to publish
