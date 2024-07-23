@@ -8,7 +8,7 @@ use LaswitchTech\coreConfigurator\Configurator;
 use LaswitchTech\coreLogger\Logger;
 use Exception;
 
-class coreLocale {
+class Locale {
 
     // Set Constants
     const Default = 'en-ca';
